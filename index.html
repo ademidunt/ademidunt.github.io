@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/woman-technologist-dark-skin-tone_1f469-1f3ff-200d-1f4bb.png">
+    <title>Tife Ademidun - Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="typeWriter()">  
+
+  <p>
+    <div>
+    <h1 id="greeting"></h1>
+  </div>
+    <div id = intro>
+    <img src= "me.png" alt = "me" id= "me" >
+    <a href="https://github.com/ademidunt" target="_blank">
+      <img src="github.png" alt = "github" id= "github" >
+    </a>
+    <a href="https://www.linkedin.com/in/tife-ademidun-280b68169/" target="_blank">
+      <img src="linkedin.png" alt = "linkedin" id= "linkedin" >
+    </a>
+    <a href="mailto:ademidunt@gmail.com">
+      <img src="gmail.png" alt = "mail" id= "mail" >
+    </a>
+  </div>
+  <br></br>
+  <h2 id="bio">Software Engineer & Game Making Enthusiast</h2>
+    <script>
+      var i = 0;
+      var txt = 'Hello, My Name is Tife.';
+      var speed = 70;
+          function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("greeting").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+    </script>
+
+  </p>     
+  <div id = portfolio>
+    <p id= "heading"> Projects </p>
+    <div id="space">
+      <img src="space.png" class="image" id=projectpics width=70%/>
+      <div class="text" id = "projectcontainer">
+        <h1 id= heading2>Space Shooter Game</h1>
+        <p id="projecttext">Web game where players can shoot at enemies, doge obstacles and collect points</p>
+        <p id="projecttext">Made Using Unity, C# and Shader Lab</p>
+        <a href='http://spaceshooter.s3-website.ca-central-1.amazonaws.com/'target="_blank"><button id="projectbutton">Play Game</button></a>
+      </div>
+    </div>
+    <div id="keeptrack" style = "position:relative;">
+      <img src="keeptrack.png" class="image" id=projectpics width=70%/>
+      <div class="text" id = "projectcontainer">
+        <h1 id= heading2>Keep Track Web Application</h1>
+        <p id="projecttext">Web app that allows users to create a list of tasks to be completed. Users are able to add new tasks, delete old tasks, set reminders and more</p>
+        <p id="projecttext">Made Using React, JavaScript, HTML and CSS</p>
+        <a href='https://github.com/ademidunt/KeepTrackWebApp' target="_blank"><button id="projectbutton">Play Game</button></a>
+      </div>
+    </div>
+    <div id="goblin" style = "position:relative;">
+      <img src="goblin.png" class="image" id=projectpics width=70%/>
+      <div class="text" id = "projectcontainer" >
+        <h1 id= heading2>Goblin Slayer Game</h1>
+        <p id="projecttext">Game where players can explore an elaborate world, fight goblins and omplete challenges<br> <br> <br> Made Using Unity, C# and Shader Lab</br> </p>
+        <a href='https://github.com/ademidunt/KeepTrackWebApp' target="_blank"><button id="projectbutton">View Project</button></a>
+      </div>
+    </div>
+    <div id="ball" style = "position:relative;">
+      <img src="ball.png" class="image" id=projectpics width=70%/>
+      <div class="text" id = "projectcontainer" >
+        <h1 id= heading2>Rolly Ball Game</h1>
+        <p id="projecttext">A computer game where users can roll around arena and collect prizes</p>
+        <p id="projecttext">Made Using Unity, C# and Shader Lab</p>
+        <a href='https://github.com/ademidunt/RollyBall' target="_blank"><button id="projectbutton">View Project</button></a>
+      </div>
+    </div>  
+  </div>
+
+<p id = footertext> This page was created and designed by Tife Ademidun using html and css</p> -->
+      
+</body>
+</html>
