@@ -10,7 +10,7 @@ html {
 }    
 
 body{
-    background-color: red;
+    background-color: yellow;
     color:#555555; 
     font: 12px Verdana, Arial;
     line-height: 1.8em;
@@ -138,7 +138,7 @@ body{
 
 #projectpics{ 
 
-  height:70vh;
+  height:80%;
 
   left: 30vh;
   top: 50vh;
