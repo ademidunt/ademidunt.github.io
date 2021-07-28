@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+
+}
+
+
+body{
+    background: #72e4b4 ;
+    background-color:#72e4b4;
+    color:#555555;
+   
+    font: 12px Verdana, Arial;
+
+    line-height: 1.3em;
+
+    margin:0;
+}
+
+/*list styles*/
+ul {
+    
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #bebebe;
+  }
+  
+/* potion nav bar left*/
+li {
+    float: left;
+  }
+  
+
+/* style of the individual link box in nav bar*/
+
+li a {
+    display: block;
+    color: white;
+    font:14px verdana;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+/* Change the link color to a darker grey on hover */
+li a:hover {
+    background-color: #808080;
+  }
+
+.active {
+    background-color: #72e4b4;
+  }
