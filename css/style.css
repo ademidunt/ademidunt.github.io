@@ -70,7 +70,11 @@ body{
 
 #greeting{
 
-   
+    position: relative;
+    top: 10vh;
+    font-family: "Courier New", monospace;
+    font-size: 3.5vw;
+    color: white;
 
 
 }
